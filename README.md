@@ -11,9 +11,9 @@ Some web applications use a security feature for their file upload checks which 
 
 allows for the identification of the file type, for instance 'GIF87a' corresponds to a file with .GIF file extension.
 
-Now lets say you try to upload <?php echo 'test'?>  the web application will throw an error saying that it wont accept the file
+Now lets say you try to upload ``` <?php echo 'test'?> ``` the web application will throw an error saying that it wont accept the file
 
-However if you make it GIF87a <?php echo 'test'?>  in some cases the web application will think its a GIF and will approve the file upload!
+However if you make it ``` GIF87a <?php echo 'test'?> ``` in some cases the web application will think its a GIF and will approve the file upload!
 
 This extension will allow you to insert these Magick Bytes straight from burp suite into your request.
 
