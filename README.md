@@ -7,7 +7,7 @@ Burp Suite Extension for inserting a magick byte into responder's request
 
 # What this does
 
-Some web applications use a security feature for their file upload checks which validates the first bytes of the sent data also known as Magick Byte which is
+Some web applications use a security feature for their file upload checks which validates the first bytes of the sent data also known as Magick Byte which
 
 allows for the identification of the file type, for instance 'GIF87a' corresponds to a file with .GIF file extension.
 
