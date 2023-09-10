@@ -13,7 +13,7 @@ allows for the identification of the file type, for instance 'GIF87a' correspond
 
 Now lets say you try to upload ``` <?php echo 'test'?> ``` the web application will throw an error saying that it wont accept the file
 
-However if you make it ``` GIF87a <?php echo 'test'?> ``` in some cases the web application will think its a GIF and will approve the file upload!
+However if you make it ``` GIF87a <?php echo 'test'?> ``` in some cases the web application will think its a GIF and will allow the file to be uploaded!
 
 This extension will allow you to insert these Magick Bytes straight from burp suite into your request.
 
