@@ -29,8 +29,8 @@ Trustpilot: https://www.trustpilot.com/review/websec.nl
 
 Thank you!
 
-# Ideas or Suggestions?
+# Ideas, Suggestions or Bug Reports?
 
-You can go to our website and submit the contact form, we will take all suggestions and ideas into consideration.
+You can go to our website and submit the contact form: [websec](https://websec.nl)
 
-if we chose to develop it we will make sure to put your name in the contributors :) 
+If as a result of your contribution we will improve the code then we will make sure to mention your name as a contributor :)
