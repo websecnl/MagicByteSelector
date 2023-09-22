@@ -11,7 +11,7 @@ class BurpExtender(IBurpExtender, IContextMenuFactory):
     def registerExtenderCallbacks(self, callbacks):
         self._callbacks = callbacks
         self._helpers = callbacks.getHelpers()
-        callbacks.setExtensionName("Magic Byte Generator")
+        callbacks.setExtensionName("Magic Byte Selector")
         callbacks.registerContextMenuFactory(self)
         
         print("This extension is made by https://websec.nl Research & Development Team,\n"
